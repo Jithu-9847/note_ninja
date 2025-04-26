@@ -8,7 +8,7 @@ bot.on('message', (msg) => {
   const chatId = msg.chat.id;
 
   if (msg.text == "Hello" || msg.text == "hello")
-    bot.sendMessage(chatId, "Hello there! 👋 What's on your mind today?");
+    bot.sendMessage(chatId, "Hello there! 👋 ");
 });
 
 bot.onText(/\/notes/, (msg) => {
